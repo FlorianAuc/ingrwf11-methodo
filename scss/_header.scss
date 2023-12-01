@@ -1,0 +1,22 @@
+.custom-header {
+  background: rgb(255, 255, 104);
+  padding: 1rem 0;
+
+
+  &__nav {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-around;
+
+
+    &__link {
+      color: black;
+      transition: .3s;
+
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+
+}
