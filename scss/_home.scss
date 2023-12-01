@@ -1,0 +1,26 @@
+$m-b-t : 1rem;
+
+.main {
+  // display: flex;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+
+  &__content {
+
+
+    &__title {
+      margin: $m-b-t 0;
+
+    }
+  }
+
+  &__sidebar {
+
+
+    &__title {
+
+      margin: $m-b-t 0;
+    }
+  }
+}
